@@ -50,7 +50,7 @@ chain = RetrievalQA.from_chain_type(llm=llm,
 
 
 
-user_input = "Tell me about Rainfall Measurement of the paper"
+user_input = "how does the transformer work"
 
 
 result=chain({'query':user_input})
